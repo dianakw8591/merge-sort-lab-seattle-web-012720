@@ -3,18 +3,18 @@ var sinon = require('sinon');
 // change to give addresses of head,
 // write function called get head.
 
-describe('#findMinAndRemoveSorted', function() {
-  it("should return the smallest element of an array", function() {
-    let array = [2, 3, 4, 5, 6, 7]
-    expect(findMinAndRemoveSorted(array)).toEqual(2)
-  });
+// describe('#findMinAndRemoveSorted', function() {
+//   it("should return the smallest element of an array", function() {
+//     let array = [2, 3, 4, 5, 6, 7]
+//     expect(findMinAndRemoveSorted(array)).toEqual(2)
+//   });
 
-  it("should remove the smallest element from an array", function() {
-    let array = [2, 3, 4, 5, 6, 7]
-    findMinAndRemoveSorted(array)
-    expect(array.includes(2)).toEqual(false)
-  });
-});
+//   it("should remove the smallest element from an array", function() {
+//     let array = [2, 3, 4, 5, 6, 7]
+//     findMinAndRemoveSorted(array)
+//     expect(array.includes(2)).toEqual(false)
+//   });
+// });
 
 describe('#merge', function() {
   it("should merge two sorted arrays to produce one sorted array", function() {
